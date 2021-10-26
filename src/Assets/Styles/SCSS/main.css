@@ -1,0 +1,332 @@
+/* browser rest code */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (max-width: 900px) {
+  html::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  position: relative;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.react-spinner {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.react-spinner h2 {
+  color: #1266f1;
+  font-weight: bold;
+}
+
+.main-contents {
+  background: #f5f5f5;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.bg-footer {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-navbar {
+  background: white;
+}
+
+@media (max-width: 991px) {
+  .d-none_responsive {
+    display: none !important;
+  }
+}
+
+.sidebar_logo {
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar ul a {
+  text-decoration: none;
+}
+
+.sidebar ul a h6 {
+  color: #757575;
+}
+
+.login_area {
+  background: white;
+}
+
+.login_area input {
+  border: 2px solid #c5c9c7 !important;
+}
+
+.login_area input:focus {
+  border: 2px solid #1266f1 !important;
+}
+
+.login_area label {
+  background: white !important;
+  padding: 0px 5px;
+}
+
+#dashboard_services_pa .Page-title {
+  font-weight: 700;
+  border-bottom: 2px solid #1266f1;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#dashboard_services_pa .modal {
+  margin-top: 50px;
+}
+
+#dashboard_services_pa label {
+  background: #fff;
+  padding: 0px 10px;
+}
+
+#dashboard_services_pa .form-outline {
+  margin-bottom: 15px;
+}
+
+#dashboard_services_pa .form-outline span {
+  color: #fff;
+  font-weight: 500;
+  background: #f93154;
+  padding: 0px 7px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#dashboard_services_pa input,
+#dashboard_services_pa textarea {
+  border: 2px solid #1266f1 !important;
+}
+
+#dashboard_services_pa .modal {
+  z-index: 1100;
+}
+
+#d_About_area #title {
+  color: #1266f1;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #1266f1;
+}
+
+#d_About_area input,
+#d_About_area textarea {
+  border: 2px solid #1266f1;
+}
+
+#d_About_area label {
+  background: #fff;
+  padding: 0px 10px;
+  color: #1266f1;
+  font-weight: bold;
+}
+
+#dashboard_projects_pa .Page-title {
+  font-weight: 700;
+  border-bottom: 2px solid #1266f1;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#dashboard_projects_pa .modal {
+  margin-top: 50px;
+}
+
+#dashboard_projects_pa label {
+  background: #fff;
+  padding: 0px 10px;
+}
+
+#dashboard_projects_pa .form-outline {
+  margin-bottom: 15px;
+}
+
+#dashboard_projects_pa .form-outline span {
+  color: #fff;
+  font-weight: 500;
+  background: #f93154;
+  padding: 0px 7px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#dashboard_projects_pa input,
+#dashboard_projects_pa textarea {
+  border: 2px solid #1266f1 !important;
+}
+
+#dashboard_projects_pa .modal {
+  z-index: 1100;
+}
+
+.MuiRating-label {
+  margin-bottom: 0px;
+}
+
+.clients_Logos_area {
+  font-family: "Poppins", "Hind Siliguri", sans-serif;
+  padding: 80px 0px;
+}
+
+.clients_Logos_area .title_area {
+  margin-bottom: 50px;
+}
+
+.clients_Logos_area .title_area h2,
+.clients_Logos_area .title_area p {
+  text-align: center;
+}
+
+.clients_Logos_area .title_area h2 {
+  font-weight: 900;
+}
+
+.clients_Logos_area .logos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.clients_Logos_area .logos > div {
+  background: #f5f7ff;
+  padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.clients_Logos_area .logos > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.clients_Logos_area .logos > div img {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.clients_Logos_area .logos > div div i {
+  cursor: pointer;
+}
+
+@media (max-width: 570px) {
+  .clients_Logos_area {
+    padding: 80px 10px;
+  }
+}
+
+#d_orders_info_area_a .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#d_orders_info_area_a .user-info__img img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+  border-radius: 45px;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.homePage {
+  min-height: 100vh;
+  background-image: url("https://i.imgur.com/gbMQdWX.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homePage div .home_main .card {
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.527);
+}
+
+.homePage div .home_main .card h1 {
+  color: #262626;
+  font-weight: bold;
+}
+
+.homePage div .home_login_card {
+  padding: 30px 0px;
+  margin: 5px 0px;
+  min-height: 100vh;
+}
+
+/*******************************************************************
+********************************************************************/
+.icons-color {
+  color: #262626;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

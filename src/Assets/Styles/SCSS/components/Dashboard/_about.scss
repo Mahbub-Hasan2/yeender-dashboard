@@ -1,0 +1,25 @@
+@import "../../utilities/variables";
+
+#d_About_area {
+  #title {
+    color: $primary;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid $primary;
+  }
+
+  input,
+  textarea {
+    border: 2px solid $primary;
+  }
+
+  label {
+    background: #fff;
+    padding: 0px 10px;
+    color: $primary;
+    font-weight: bold;
+  }
+}

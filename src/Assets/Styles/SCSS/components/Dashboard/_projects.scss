@@ -1,0 +1,36 @@
+@import "../../utilities/variables";
+
+#dashboard_projects_pa {
+  .Page-title {
+    font-weight: 700;
+    border-bottom: 2px solid $primary;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  .modal {
+    margin-top: 50px;
+  }
+  label {
+    background: #fff;
+    padding: 0px 10px;
+  }
+  .form-outline {
+    margin-bottom: 15px;
+    span {
+      color: #fff;
+      font-weight: 500;
+      background: $danger;
+      padding: 0px 7px;
+      border-radius: 0px 0px 20px 20px;
+    }
+  }
+  input,
+  textarea {
+    border: 2px solid $primary !important;
+  }
+
+  .modal {
+    z-index: 1100;
+  }
+}

@@ -1,0 +1,33 @@
+// base
+@import "./base/reset";
+
+// utilities
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/functions";
+
+// layout
+@import "./layout/layout";
+@import "./layout/footer";
+@import "./layout/navbar";
+
+// components
+@import "./components/sidebar";
+@import "./components/login";
+@import "./components/Dashboard/services";
+@import "./components/Dashboard/about";
+@import "./components/Dashboard/projects";
+@import "./components/Dashboard/clientReview.scss";
+@import "./components/Dashboard/ClientLogos";
+@import "./components/Dashboard/ordersInfo";
+
+// pages
+@import "./pages/home";
+
+/*******************************************************************
+********************************************************************/
+
+.icons-color {
+  color: $icons-color;
+  cursor: pointer;
+}
