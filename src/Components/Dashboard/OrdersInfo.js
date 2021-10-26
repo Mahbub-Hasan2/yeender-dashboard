@@ -21,8 +21,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
@@ -56,8 +56,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
@@ -91,8 +91,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
@@ -126,8 +126,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
@@ -161,8 +161,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
@@ -196,8 +196,8 @@ const OrdersInfo = () => {
 									<i className="fa fa-ellipsis-v"></i>
 								</a>
 								<div className="dropdown-menu" aria-labelledby="triggerId1">
-									<a className="dropdown-item" href="#"><i className="fa fa-pencil mr-1"></i> Edit</a>
-									<a className="dropdown-item text-danger" href="#"><i className="fa fa-trash mr-1"></i> Delete</a>
+									<a className="dropdown-item" href="/"><i className="fa fa-pencil mr-1"></i> Edit</a>
+									<a className="dropdown-item text-danger" href="/"><i className="fa fa-trash mr-1"></i> Delete</a>
 								</div>
 							</div>
 						</div>
